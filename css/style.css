@@ -2922,7 +2922,7 @@ body.dark-layout .main-input{
     border-color: #212744 ;
 }
 body.dark-layout tspan{
-    color: var(--color-white) !important;
+    fill: var(--color-white) !important;
 }
 #SvgjsTspan2982{
     color: var(--color-white) !important;
