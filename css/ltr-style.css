@@ -1,0 +1,342 @@
+body {
+    direction: ltr;
+    text-align: left;
+  }
+  .drop-down-lang {
+    right: 65px;
+    left: unset;
+  }
+  .drop-down-order {
+    right: -180px;
+    left: unset;
+  }
+  .flex-a:hover {
+    padding-left: 12px;
+    padding-right: 0;
+  }
+  @keyframes progress-bar {
+    0% {
+      right: -100%;
+      left: unset;
+    }
+    100% {
+      right: 55%;
+      left: unset;
+    }
+  }
+  #progressbar::before {
+    right: -100%;
+    left: unset;
+  }
+  .main-input-cont h6::after {
+    right: -14px;
+    left: unset;
+  }
+  /*iti*/
+  .iti__country-list {
+    left: calc(100% - 82px) !important;
+    right: unset !important;
+  }
+  #telephone {
+    padding-left: 100px !important;
+    padding-right: 0 !important;
+  }
+  #telephone-left {
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+  #telephone2 {
+    padding-left: 100px !important;
+    padding-right: 0 !important;
+  }
+  #telephone3 {
+    padding-left: 100px;
+    padding-right: 0px;
+  }
+  .iti--allow-dropdown .iti__flag-container,
+  .iti--separate-dial-code .iti__flag-container {
+    left: 0;
+    right: auto;
+  }
+  .tele-edit-read-only .iti--allow-dropdown .iti__flag-container,
+  .tele-edit-read-only .iti--separate-dial-code .iti__flag-container {
+    right: 0;
+    left: auto;
+  }
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    padding-left: 12px;
+    padding-right: 0px;
+  }
+  .main-float {
+    right: 15px;
+    left: unset;
+  }
+  .select2-container--default .select2-search--inline .select2-search__field {
+    left: 16px;
+    right: unset;
+    text-align: left;
+  }
+  .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove {
+    margin-left: 5px;
+    margin-right: 0;
+    right: 2px;
+    left: unset;
+  }
+  .work-plus-icon {
+    margin-left: auto;
+    margin-right: 3px;
+  }
+  .add-photo {
+    right: 17px;
+    left: unset;
+  }
+  .sidebar .close {
+    right: 10px;
+    left: unset;
+  }
+  .sidebar .links > li > a::before {
+    left: 0;
+    right: unset;
+  }
+  .sidebar .links > li > a > .icon-right {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .sidebar .links .collapse-content .coll::after {
+    left: 0;
+    right: unset;
+  }
+  .sidebar .links .collapse-content .coll .icon-right {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  /********************* Navbar *********************/
+  .navbar-me {
+    left: 0;
+    right: unset;
+    transform: translateX(300px);
+  }
+  .navbar-me .left .not .number {
+    left: 3px;
+  }
+  .dot-name {
+    left: 0;
+    right: unset;
+  }
+  .main-sec {
+    transform: translateX(300px);
+  }
+  .main-sec.active-main {
+    transform: translateX(0px);
+  }
+  .sidebar.active-side {
+    transform: translateX(-330px);
+    width: 300px;
+  }
+  
+  @media (max-width: 1024px) {
+    .sidebar {
+      transform: translateX(-330px) !important;
+      overflow: hidden;
+    }
+    .sidebar {
+      transform: translateX(-330px) !important;
+      overflow: hidden;
+    }
+  
+  
+    .sidebar.active-side {
+      transform: translateX(0px) !important;
+      width: 300px;
+    }
+  
+    .navbar-me {
+      transform: translateX(0px);
+      width: calc(100% - 0px);
+    }
+  
+    .main-sec {
+      width: calc(100%);
+      transform: translateX(0px);
+    }
+  }
+  .fl-bt {
+    right: 10px;
+    left: unset;
+  }
+  .my-drop-search {
+    left: 0px;
+    right: unset;
+  }
+  .navbar-me .left .not .number {
+    left: 1px;
+    right: unset;
+  }
+  .navbar-me.active-nav {
+    transform: translateX(0px);
+  }
+  .sidebar .links > li > .item-click.active::after {
+    left: -10px;
+    right: unset;
+  }
+  .sidebar .links > li > a.active::after {
+    left: -10px;
+    right: unset;
+  }
+  .sidebar .links > li > .item-click > .icon-right {
+    margin-left: auto;
+    margin-right: unset;
+  }
+  .sidebar .links > li > .item-click::before {
+    left: 0;
+    right: unset;
+  }
+  .orders-show,
+  .setting-show {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+  /* start datatabel .......................................................... */
+  .table-btn-spe {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .drop-down {
+    right: 20px;
+    left: unset;
+  }
+  .trainer .right .course .info {
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+  @media screen and (max-width: 475px) {
+    .trainer .right .course .info {
+      margin-right: 0;
+    }
+  }
+  .trainer .left .bottom .item .info img {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  .repo-spe-f > a:nth-child(odd) {
+    border-right: 1px solid #f5f5f5;
+    border-left: none;
+  }
+  .work-plus-icon {
+    margin-left: auto;
+    margin-right: 3px;
+  }
+  .add-photo {
+    right: 17px;
+    left: unset;
+  }
+  .inp-date-con .fa-calendar {
+    right: 7px;
+    left: unset;
+  }
+  @media (max-width: 767px) {
+    .drop-down-lang {
+      right: 15px;
+      left: unset;
+    }
+  }
+  
+  table.dataTable > tbody > tr.child span.dtr-title {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before,
+  table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
+    right: 5px;
+    left: unset;
+  }
+  table.dataTable thead > tr > th.sorting,
+  table.dataTable thead > tr > th.sorting_asc,
+  table.dataTable thead > tr > th.sorting_desc,
+  table.dataTable thead > tr > th.sorting_asc_disabled,
+  table.dataTable thead > tr > th.sorting_desc_disabled,
+  table.dataTable thead > tr > td.sorting,
+  table.dataTable thead > tr > td.sorting_asc,
+  table.dataTable thead > tr > td.sorting_desc,
+  table.dataTable thead > tr > td.sorting_asc_disabled,
+  table.dataTable thead > tr > td.sorting_desc_disabled {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  table.dataTable thead > tr > th.sorting:before,
+  table.dataTable thead > tr > th.sorting:after,
+  table.dataTable thead > tr > th.sorting_asc:before,
+  table.dataTable thead > tr > th.sorting_asc:after,
+  table.dataTable thead > tr > th.sorting_desc:before,
+  table.dataTable thead > tr > th.sorting_desc:after,
+  table.dataTable thead > tr > th.sorting_asc_disabled:before,
+  table.dataTable thead > tr > th.sorting_asc_disabled:after,
+  table.dataTable thead > tr > th.sorting_desc_disabled:before,
+  table.dataTable thead > tr > th.sorting_desc_disabled:after,
+  table.dataTable thead > tr > td.sorting:before,
+  table.dataTable thead > tr > td.sorting:after,
+  table.dataTable thead > tr > td.sorting_asc:before,
+  table.dataTable thead > tr > td.sorting_asc:after,
+  table.dataTable thead > tr > td.sorting_desc:before,
+  table.dataTable thead > tr > td.sorting_desc:after,
+  table.dataTable thead > tr > td.sorting_asc_disabled:before,
+  table.dataTable thead > tr > td.sorting_asc_disabled:after,
+  table.dataTable thead > tr > td.sorting_desc_disabled:before,
+  table.dataTable thead > tr > td.sorting_desc_disabled:after {
+    right: 10px;
+    left: unset;
+  }
+  .page-item:not(:first-child) .page-link {
+    margin-left: 0px;
+  }
+  div.dataTables_wrapper
+    div.dataTables_paginate
+    ul.pagination
+    .page-item:not(:last-child)
+    .page-link {
+    margin-left: 4px;
+    margin-right: 0px;
+  }
+  .main-icon {
+    right: 12px;
+    left: unset;
+  }
+  .my-drop-now {
+    left: -90px;
+    right: unset;
+  }
+  .fa-angle-left {
+    transform: rotate(180deg);
+  }
+  table.dataTable {
+    direction: ltr;
+  }
+  .select2-container--default .select2-search--dropdown .select2-search__field{
+    direction: ltr;
+  }
+  
+
+  .filter-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .icon-filter{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .flex-main-filter>div:not(:last-child) , .single-btn:first-child{
+    border-left: none;
+    border-right: 1px solid #ddd;
+  }
+  .switch .main-div span {
+
+    transform: translateX(22px);
+  }

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/flat.css" />
+    <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="stylesheet" href="css/ltr-style.css" /> -->
+    <title>fainancial</title>
+</head>
+
+<body>
+    <div class="nav-layer"></div>
+    <!-- ************** start to loader ************** -->
+    <div class="loader-container">
+        <span class="loader"></span>
+    </div>
+    <!-- ************** End to loader ************** -->
+
+    <div class="sidebar" id="sidebar">
+        <div class="close" id="closeSidebar">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="content">
+            <div class="flex-sm-gap spe-lo-pad flex-group-me mb-4">
+                <img src="https://innoprosa.net/admin_assets/images/logo.png" class="logo-dash" alt="logo">
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="index.html" >
+                        <span class="icon-co">
+                            <img src="imgs/home-06.png" alt="" />
+                        </span>
+                        الرئيسية
+                    </a>
+                </li>
+                <li>
+                    <a href="goInside.html" >
+                        <span class="icon-co">
+                            <img src="imgs/login-square-02.png" alt="" />
+                        </span>
+                        اشعارات الدخول
+                    </a>
+                </li>
+                <li>
+                    <a href="fainancial.html" >
+                        <span class="icon-co">
+                            <img src="imgs/activity-03.png" alt="" />
+                        </span>
+                        الحركات المالية
+                    </a>
+                </li>
+                <li>
+                    <a href="invoices.html" >
+                        <span class="icon-co">
+                            <img src="imgs/invoice-03.png" alt="" />
+                        </span>
+                        ادارة الفواتير
+                    </a>
+                </li>
+                <li>
+                    <a href="premitions.html" >
+                        <span class="icon-co">
+                            <img src="imgs/activity-03.png" alt="" />
+                        </span>
+                         التصاريح
+                    </a>
+                </li>
+                <li>
+                    <a href="faults.html" >
+                        <span class="icon-co">
+                            <img src="imgs/activity-03.png" alt="" />
+                        </span>
+                        المخالفات
+                    </a>
+                </li>
+                <li>
+                    <a href="wallet.html" >
+                        <span class="icon-co">
+                            <img src="imgs/wallet-add-01 (1).png" alt="" />
+                        </span>
+                        شحن المحفظة
+                    </a>
+                </li>
+                <li>
+                    <a href="profile-choose.html" >
+                        <span class="icon-co">
+                            <img src="imgs/account-setting-03.png" alt="" />
+                        </span>
+                        الملف الشخصي
+                    </a>
+                </li>
+
+
+                <li>
+                    <button data-bs-toggle="modal" data-bs-target="#logout-modal"
+                        class="log-out-red item-click d-flex reset-btn w-100">
+                        <span class="icon-co">
+                            <img src="imgs/noun_logout.png" alt="" />
+                        </span>
+                        تسجيل الخروج
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="navbar-me" id="navbar">
+        <div class="container">
+            <div class="content">
+                <div class="flex-sm-gap">
+
+                    <div class="menu" id="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <form action="" class="search-form">
+                        <div class="middle-form relative-parent search-main">
+                            <input type="text" placeholder="كلمات مفتاحية" class="main-input" />
+                            <button type="submit" class="fl-bt">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="left">
+                    <div class="not search-mmain pointer-click">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="not">
+                        <a href="notifications.html"></a>
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="number">3</span>
+                    </div>
+                    <div class="header-mode">
+                        <i class="fa-regular fa-sun"></i>
+                    </div>
+                    <div class="header-language">
+                        <img src="imgs/saudi.png" alt="lang" />
+                    </div>
+
+                    <div>
+                        <div class="account flex-profile-btn">
+                            <img src="imgs/185644495_1667380803456791_1968050560740665054_n.jpg" alt="img" class="profile-img" />
+                            <div class="info">
+                                <h3>عبدالرحمن</h3>
+                                <span>المدير العام</span>
+                            </div>
+                            <div class="icon-pro">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <ul class="my-drop-now">
+                                <li>
+                                  <a href="profile.html" class="flex-in-drop">
+                                    <img src="imgs/test1.png" alt="img">
+                                    <div class="in-f-text">ادارة الحساب</div>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="reset-pass.html" class="flex-in-drop">
+                                    <img src="imgs/test2.png" alt="img">
+                                    <div class="in-f-text">تغيير كلمة المرور</div>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="invoices.html" class="flex-in-drop">
+                                    <img src="imgs/test3.png" alt="img">
+                                    <div class="in-f-text">سجل الفواتير</div>
+                                  </a>
+                                </li>
+                  
+                                <li>
+                                  <a href="login.html" class="flex-in-drop red-drop">
+                                    <img src="imgs/test4.png" alt="img">
+                                    <div class="in-f-text">تسجيل الخروج</div>
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-sec" id="main">
+        <div class="container">
+            <!--note =>  add `data-minimum-results-for-search="Infinity"` to select to remove search -->
+            <div class="filter-main mb-3">
+                <form>
+                    <div class="flex-main-filter">
+                        <div class="icon-filter style-div">
+                            <i class="fa-solid fa-filter"></i>
+                        </div>
+                        <div class="filter-by style-div">التصفية حسب</div>
+                        <div class="filter-select">
+                            <div class="main-input-cont search-none mb-3">
+                                <select class="main-select">
+                                    <option value="" selected disabled>المنطقة</option>
+                                    <option value="">مصر</option>
+                                    <option value="">السعودية السعودية السعودية السعوديةالسعودية السعوديةالسعودية
+                                        السعودية</option>
+                                    <option value="">عمان</option>
+                                </select>
+                                <div class="main-float gray-col">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-select">
+                            <div class="main-input-cont search-none mb-3">
+                                <select class="main-select">
+                                    <option value="" selected disabled>المحطة</option>
+                                    <option value="">مصر</option>
+                                    <option value="">السعودية</option>
+                                    <option value="">عمان</option>
+                                </select>
+                                <div class="main-float gray-col">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-input">
+                            <div class="main-input-cont mb-3">
+                                <input type="text" class="main-input date-show from-sele" placeholder="من تاريخ" />
+                                <div class="main-float gray-col">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-input">
+                            <div class="main-input-cont mb-3">
+                                <input type="text" class="main-input date-show2 to-sele" disabled
+                                    placeholder="الى تاريخ" />
+                                <div class="main-float gray-col">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="filter-btn reset-btn up2">
+                            <div>البحث</div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="shadow-table over-table">
+                <table class="table text-center mb-0" style="width: 100%">
+                    <thead class="table-head">
+                        <tr>
+                            <th class="font14">#</th>
+                            <th class="font14">محطة</th>
+                            <th class="font14">رقم اللوحة</th>
+                            <th class="font14">رقم الترخيص</th>
+                            <th class="font14">التصنيف</th>
+                            <th class="font14">المبلغ</th>
+                            <th class="font14">الرصيد</th>
+                            <th class="font14">طريقة الدفع</th>
+                            <th class="font14">تاريخ الانشاء</th>
+                            <th class="font14">الاجراء</th>
+                            <th class="font14">الاعدادات</th>
+                        </tr>
+                    </thead>
+                    <tbody data-class-name="table-body">
+                        <tr>
+                            <td class="font14 gray-col">1</td>
+
+                            <td class="font14 gray-col">الرحيلي</td>
+
+                            <td class="font14">
+                                <span class="fontBold gray-col">167fgh</span>
+                            </td>
+
+                            <td class="font14">
+                                <span class="gray-col">mg-237</span>
+                            </td>
+                            <td class="font14">
+                                <span class="gray-col">سكاي</span>
+                            </td>
+                            <td class="font14">
+                                <span class="gray-col">15.6</span>
+                            </td>
+                            <td class="font14">
+                                <span class="gray-col">324</span>
+                            </td>
+                            <td class="font14">
+                                <span class="gray-col">مسبق الدفع</span>
+                            </td>
+                            <td class="font14">
+                                <span class="gray-col">15/10/2022</span>
+                            </td>
+                            <td class="font14">
+                                <!-- blue-b , yellow-b , violent-b , red-b , green-b  -->
+                                <span class="action-needed red-b">خصم فاتورة</span>
+                            </td>
+                            <td class="font14">
+                                <div class="flex-table-btns">
+                                    <div class="single-btn">
+                                        <button type="button" class="reset-btn">
+                                            <img src="imgs/printer.png" alt="img">
+                                        </button>
+                                    </div>
+                                    <div class="single-btn">
+                                        <button type="button" class="reset-btn">
+                                            <img src="imgs/elements.png" alt="img">
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+              
+                    </tbody>
+                </table>
+                <!-- show no data div if number of tr is zero -->
+                <!-- note => it should be outside the table  -->
+                <!-- <div class="nodata-founded pt-3 pb-4">
+                    <img src="imgs/empty.png" alt="nodata">
+                    <div class="gray-col">لا يوجد بيانات لعرضها</div>
+                </div> -->
+            </div>
+            <!-- show this div if number of tr isn't zero -->
+            <div class="flex-group-me mt-3">
+                <div class="pagination-main">pagination</div>
+            </div>
+
+
+
+            <div class="add-div mt-3">
+                <a href="add-invoice.html" class="main-btn up lg flex-group-me g-1">
+                    <div>انشاء فاتورة جديدة</div>
+                    <div class="plus-b"><i class="fa-solid fa-plus"></i></div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+      <!-- Modal confirm logout -->
+      <div class="modal fade" id="logout-modal" tabindex="-1" aria-labelledby="logout-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content main-redious">
+                <div class="modal-body maodal-pad text-center">
+                    <div class="flex-group-me mb-5 mt-3">
+                        <img class="modal-img-m" src="imgs/amico.png" alt="" />
+                    </div>
+                    <h6 class="text-center mb-4">هل انت متاكد من تسجيل الخروج؟</h6>
+
+                    <div class="flex-group-me mb-3">
+                        <button type="button" onclick="window.location = 'login.html'" class="main-btn  up">
+                            <div class="follow-text">نعم</div>
+                        </button>
+                        <button type="button" class="main-btn up  light-b" data-bs-dismiss="modal">
+                            تراجع
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/flat.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--call select2 single-->
+    <script>
+        $(document).ready(function () {
+            $(".main-select").select2({
+                // dropdownCssClass: "no-search",
+            });
+        });
+    </script>
+
+
+    <!--call flat picker-->
+    <script>
+        let fromSelect = document.querySelector(".from-sele");
+        let toSelect = document.querySelector(".to-sele");
+
+        flatpickr(".date-show", {
+            disableMobile: "true",
+
+            onChange: function () {
+                toSelect.value = "";
+
+                console.log(fromSelect.value);
+                if (fromSelect.value != "") {
+                    toSelect.removeAttribute("disabled");
+                }
+
+                flatpickr(".date-show2", {
+                    disableMobile: "true",
+                    minDate: "'" + fromSelect.value + "'",
+                    onChange: function () {
+                        console.log("run ajax code");
+                    },
+                });
+            },
+        });
+
+        flatpickr(".date-show2", {
+            disableMobile: "true",
+        });
+    </script>
+</body>
+
+</html>

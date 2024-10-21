@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>login</title>
+</head>
+
+<body>
+    <div class="nav-layer"></div>
+    <!-- ************** start to loader ************** -->
+    <div class="loader-container">
+        <span class="loader"></span>
+    </div>
+    <!-- ************** End to loader ************** -->
+
+
+
+
+    <div class="login-page"
+        style="background-image: url('imgs/black-water-flows-through-industrial-treatment-plant-showing-ecological-cleaning-process-concept-ecofriendly-wastewater-treatment-industrial-cleaning-process-sustainable-water-management 1.png');">
+        <div class="container">
+
+            <div class="col-lg-6 col-12 margin-auto ">
+
+                <form action="index.html">
+                    <div class="login-card">
+                        <div class="logo-login flex-group-me mb-5">
+                            <img src="https://innoprosa.net/admin_assets/images/logo.png" alt="logo">
+                        </div>
+
+                        <div class="titles text-center mb-4">
+                            <h6 class="font-bold mb-2">تسجيل الدخول</h6>
+                            <p class="gray-col">مرحبا بك <span class="emoji ">👋</span> برجاء ادخال بياناتك المسجلة
+                                لدينا</p>
+                        </div>
+                        <div class="all-inputs">
+                            <div class="main-input-cont mb-3">
+                                <h6 class="mb-2 font14 reqired-label">اسم المستخدم</h6>
+                                <input type="text" class="main-input" placeholder="برجاء ادخال اسم المستخدم" />
+                            </div>
+                            <div class="main-input-cont mb-2 mt-4">
+                                <h6 class="mb-2 font14 reqired-label">كلمة المرور</h6>
+                                <input type="password" class="main-input inputPassSet"
+                                    placeholder="برجاء ادخال كلمة المرور" />
+                                <div class="main-float gray-col pointer-click check-setting-ic">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+                            </div>
+                            <button type="submit" class="main-btn w-100 up mt-5 mb-3">
+                                تسجيل الدخول
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="all-res mt-3 text-center gray-col">جميع الحقوق محفوظة لشركة الابتكار الاحترافي لتقنية
+                    المعلومات</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- PassWord Show and hide -->
+    <script>
+        const iconsPassSet = document.querySelectorAll(".check-setting-ic");
+
+        if (iconsPassSet) {
+            iconsPassSet.forEach((ic) => {
+                ic.addEventListener("click", function () {
+                    let input = ic.parentElement.querySelector(".inputPassSet");
+                    showPassword(input, ic);
+                });
+            });
+        }
+
+        // Function To Show And Hide Password
+        function showPassword(input, icon) {
+            if (input.type == "password") {
+                input.setAttribute("type", "text");
+                icon.innerHTML = `<i class="fa-regular fa-eye-slash"></i>`;
+            } else {
+                input.setAttribute("type", "password");
+                icon.innerHTML = `<i class="fa-regular fa-eye"></i>`;
+            }
+
+            // input.focus();
+        }
+    </script>
+
+</body>
+
+</html>
