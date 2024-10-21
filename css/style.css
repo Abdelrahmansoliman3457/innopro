@@ -2683,12 +2683,14 @@ tspan{
   .search-mmain {
     cursor: pointer;
   }
-  @media screen and (max-width: 350px) {
-    .navbar-me .left .account .info {
-      display: none;
-    }
-  }
+
   @media screen and (max-width: 767px) {
+    .iti__country{
+        white-space: break-spaces;
+    }
+    .iti__country-list{
+        left: 50px !important;
+    }
     .header-language, .header-mode{
         width: auto;
     }
@@ -2809,6 +2811,14 @@ tspan{
       transform: scale(1.2, 1);
     }
   }
+  @media screen and (max-width: 350px) {
+    .navbar-me .left .account .info {
+      display: none;
+    }
+    .my-drop-now{
+        right: -140px;
+    }
+  }
   .choose-main{
     padding: 14px;
     border-radius: 15px;
@@ -2898,6 +2908,7 @@ tspan{
 .pad-main{
     padding: 22px;
 }
+
 
 
 
