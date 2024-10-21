@@ -3048,3 +3048,6 @@ body.dark-layout .flex-input-shape{
     border-color: #212744  !important;
     background-color: var(--dark-ligth2);
 }
+body.dark-layout .chart-main{
+    color: #000 !important;
+}
