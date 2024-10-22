@@ -2743,6 +2743,19 @@ tspan{
     .message-single {
         width: 100% !important;
       }
+      audio{
+        width: 220px;
+      }
+      .chat-body{
+        padding: 10px !important;
+      }
+      .chat-header{
+        flex-wrap: wrap;
+      }
+      .chat-messages{
+        padding-inline: 0 !important;
+        margin-bottom: 40px;
+      }
 }
 .pay-sm-card{
     min-height: 46px;
