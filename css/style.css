@@ -2442,9 +2442,9 @@ tr:last-child {
     #my-qr-reader{
         display: block ;
     }
-    .modal-qr .modal-img-m{
+    /* .modal-qr .modal-img-m{
         display: none;
-    }
+    } */
     .card-boreder .row > div{
         margin-bottom: 10px;
     }
@@ -2626,6 +2626,16 @@ tspan{
     color: red;
   }
   @media (max-width: 767px) {
+    .logo-login img{
+        max-width: 180px;
+    }
+    .noti-box-right .fa-bell{
+        font-size: 14px;
+    }
+    .noti-box-right{
+        width: 44px;
+    height: 44px;
+    }
     .my-drop-now {
       top: 54px;
       width: 180px;
