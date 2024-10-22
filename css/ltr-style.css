@@ -340,3 +340,17 @@ body {
 
     transform: translateX(22px);
   }
+  .message-contain {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+  }
+  .reciever {
+    direction: rtl;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .reciever .message-contain {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    text-align: right;
+  }
